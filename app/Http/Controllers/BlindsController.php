@@ -12,7 +12,7 @@ class BlindsController extends Controller
     {
         $blinds = Blinds::all();
 
-        return view('admin.products.index', compact('blinds'));
+        return view('admin.blinds', compact('blinds'));
     }
 
     public function store(Request $request)
@@ -34,5 +34,11 @@ class BlindsController extends Controller
         $blind->delete();
 
         return back();
+    }
+
+    public function show(Blinds $blind)
+    {
+//        dd($blind);
+        return view('admin.showBlind', compact('blind'));
     }
 }

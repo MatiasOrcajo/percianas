@@ -4,13 +4,13 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-    <h1>Fiestas de Egresados</h1>
+    <h1>Persianas</h1>
 @stop
 
 @section('content')
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#createGraduateParty">
-        Crear nuevo evento
+        Crear nueva persiana
     </button>
 @stop
 

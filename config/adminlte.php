@@ -319,7 +319,7 @@ return [
         ],
         [
             'text' => 'Persianas',
-            'url'  => 'admin/persianas',
+            'url'  => '/admin/blinds',
             'icon' => 'fas fa-fw fa-window-maximize',
         ],
 //        [
