@@ -1,7 +1,13 @@
-import './bootstrap';
+require('./bootstrap')
+import { createApp } from 'vue';
+import { createPinia } from 'pinia'; // Importa la instancia de pinia
+import router from './router';
+import App from './components/App.vue';
 
-import Alpine from 'alpinejs';
+const app = createApp(App);
+const pinia = createPinia();
 
-window.Alpine = Alpine;
+app.use(router);
+app.use(pinia); // Usa pinia
 
-Alpine.start();
+app.mount('#app');

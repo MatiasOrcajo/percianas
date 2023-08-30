@@ -13,11 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function (){
+Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
 
     Route::get('/dashboard', function () {
         return view('admin.dashboard');
@@ -37,6 +33,9 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function (){
      */
 });
 
+Route::view('/{any}', 'app')
+    ->where('any', '.*');
 
 
-require __DIR__.'/auth.php';
+
+require __DIR__ . '/auth.php';

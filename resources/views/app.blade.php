@@ -20,18 +20,19 @@
     <script src="https://kit.fontawesome.com/9cb2dda771.js" crossorigin="anonymous"></script>
 
     <!-- styles -->
-    <link href="{{asset('/css/styles.css')}}" type="text/css" rel="stylesheet"/>
-    <link href="{{ mix('css/app.css') }}" type="text/css" rel="stylesheet"/>
+    <link href="{{asset('/public/css/app.css')}}" type="text/css" rel="stylesheet"/>
     <!---->
     <!-- datatables -->
     <link href="{{asset('/css/datatables.css')}}" type="text/css" rel="stylesheet">
 </head>
 <body>
 @yield('content')
+<div id="app"></div>
 <script src="{{asset('js/Constants.js')}}"></script>
 <script>
     const Constants = new ConstantsModel();
 </script>
+<script src="{{ asset('js/app.js') }}"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 <script src="{{asset('/js/datatables.js')}}"></script>
