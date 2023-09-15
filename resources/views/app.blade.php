@@ -19,8 +19,13 @@
     />
     <script src="https://kit.fontawesome.com/9cb2dda771.js" crossorigin="anonymous"></script>
 
+    <!-- Google fonts --- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,900;1,300;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
     <!-- styles -->
-    <link href="{{asset('/public/css/app.css')}}" type="text/css" rel="stylesheet"/>
+    <link href="{{asset('/css/app.css')}}" type="text/css" rel="stylesheet"/>
     <!---->
     <!-- datatables -->
     <link href="{{asset('/css/datatables.css')}}" type="text/css" rel="stylesheet">

@@ -9,9 +9,7 @@
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
-
-        <!-- Scripts -->
-        @vite(['public/css/app.css', 'resources/js/app.js'])
+        <link rel="stylesheet" href="{{ asset('/public/css/app.css')}} ">
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">

@@ -1,1 +1,71 @@
+.row {
+  padding: 0;
+  margin: 0;
+}
 
+.container-fluid {
+  overflow: hidden;
+}
+
+.scrolled {
+  background-color: white !important;
+}
+
+a:hover {
+  opacity: 0.7 !important;
+  text-decoration: none;
+}
+
+input,
+textarea {
+  outline: none !important;
+}
+
+.navbar {
+  background-color: #fff;
+}
+.navbar .container .navbar-brand img {
+  width: 128px;
+}
+.navbar .container .navbar-nav .nav-item .nav-link {
+  color: #15212f;
+  font-weight: 600;
+}
+
+#banner {
+  height: 600px;
+  background-image: url(/images/1.jpg?e1093969646fd5d0d3c2df743eca8291);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  position: relative;
+}
+#banner .row {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+}
+#banner .col-12 {
+  text-align: right;
+  top: 415px;
+  position: relative;
+  padding-right: 50px;
+}
+#banner .col-12 h1 {
+  font-family: "Poppins", sans-serif;
+  color: #4baced;
+  font-weight: 900;
+  font-size: 62px;
+  line-height: 64px;
+  margin: 0;
+}
+#banner .col-12 h2 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-size: 46px;
+  margin: 0;
+  line-height: 48px;
+}
