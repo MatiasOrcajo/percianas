@@ -1,5 +1,6 @@
 $font1: 'Poppins', sans-serif;
 $azul: #15212f;
+$azulclaro: #0e3885;
 $celeste: #4baced;
 
 .row {
@@ -15,9 +16,8 @@ $celeste: #4baced;
   background-color: white !important;
 }
 
-a:hover {
-  opacity: 0.7 !important;
-  text-decoration: none;
+a {
+    text-decoration: none;
 }
 
 input,
@@ -34,6 +34,9 @@ textarea {
             }
         }
         .navbar-nav {
+            a:hover {
+              opacity: 0.7 ;
+            }            
             .nav-item {
                 .nav-link {
                     color: #15212f;
@@ -54,7 +57,7 @@ textarea {
     position: relative;
     .row {
         position: relative;
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.6);
         width: 100%;
         height: 100%;
     }
@@ -62,7 +65,7 @@ textarea {
         text-align: right;
         top: 415px;
         position: relative;
-        padding-right: 50px;
+        padding-right: 120px;
         h1 {
             font-family: $font1;
             color: $celeste;
@@ -78,6 +81,121 @@ textarea {
             font-size: 46px;
             margin: 0;
             line-height: 48px;
+        }
+    }
+}
+
+#presentation {
+    padding: 60px 0;
+    .row {
+        .col-12 {
+            text-align: center;
+            margin-bottom: 50px;
+            h1 {
+                font-family: $font1;
+                color: $celeste;
+                font-weight: 800;
+                font-size: 44px;
+                line-height: 46px;
+                text-transform: uppercase;
+                margin: 0;
+            }
+        }
+        .col-md-4 {
+            padding: 0 20px;
+            .row {
+                padding: 0;
+                .col-3 {
+                    padding: 0;
+                }
+                .col-9 {
+                    text-align: center;
+                    h3 {
+                        font-family: $font1;
+                        text-transform: uppercase;
+                        color: $azulclaro;
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#products {
+    padding: 0px 0;
+    background-image: url('../js/img/2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .row {
+        padding: 100px 30px 70px 30px;
+        background-color: rgba(0, 0, 0, 0.3);
+        .col-md-4 {
+            padding: 0 30px;
+            text-align: center;
+            img {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            h2 {
+                font-family: $font1;
+                color: #fff;
+                font-weight: 800;
+                font-size: 36px;
+                line-height: 38px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+            p {
+                color: #fff;
+                font-size: 18px;
+                font-family: $font1;
+            }
+        }
+    }
+}
+
+
+#quote {
+    padding: 50px 0;
+    background-color: $azul;
+    .row {
+        .col-12 {
+            text-align: center;
+            h1 {
+                font-family: $font1;
+                color: #fff;
+                font-weight: 800;
+                font-size: 62px;
+                line-height: 64px;
+                margin: 0;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+#about {
+    padding: 50px 0;
+    .row {
+        .col-12 {
+            text-align: center;
+            h1 {
+                font-family: $font1;
+                color: $celeste;
+                font-weight: 800;
+                font-size: 44px;
+                line-height: 46px;
+                text-transform: uppercase;
+                margin: 0 0 20px 0;
+            }
+            p {
+                font-family: $font1;
+                color: $azul;
+                font-size: 24px;
+                line-height: 28px;
+            }
         }
     }
 }

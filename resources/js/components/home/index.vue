@@ -9,12 +9,17 @@
             </div>
         </div>
     </div>
+    <Presentation />
+    <Products />
+    <Quote />
+    <About />
 </template>
 
 <script setup>
+import Presentation from './Presentation.vue';
+import Products from './Products.vue';
+import Quote from './Quote.vue';
+import About from './About.vue';
+
 
 </script>
-
-<style lang="scss" scoped>
-
-</style>

@@ -12,19 +12,19 @@
               <div class="collapse navbar-collapse" id="navbarsExample04">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <router-link class="nav-link active" to="#">Inicio</router-link>
+                    <a data-scroll class="nav-link" href="#banner">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <router-link class="nav-link" to="#">Productos</router-link>
+                    <a data-scroll class="nav-link" href="#products">Productos</a>
                   </li>
                   <li class="nav-item">
-                    <router-link class="nav-link" to="#">Nosotros</router-link>
+                    <a data-scroll class="nav-link" href="#quote">Calculadora</a>
                   </li>
                   <li class="nav-item">
-                    <router-link class="nav-link" to="#">Contacto</router-link>
+                    <a data-scroll class="nav-link" href="#about">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <router-link class="nav-link" to="#">Calculadora</router-link>
+                    <a data-scroll class="nav-link" href="#contact">Contacto</a>
                   </li>
                 </ul>
               </div>

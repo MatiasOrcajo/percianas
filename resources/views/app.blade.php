@@ -29,6 +29,28 @@
     <!---->
     <!-- datatables -->
     <link href="{{asset('/css/datatables.css')}}" type="text/css" rel="stylesheet">
+
+    <!-- Scroll secciones -->
+    <script src="{{asset('js/smooth-scroll.min.js')}}"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+
+        // Selectors
+        ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+        header: null, // Selector for fixed headers (must be a valid CSS selector)
+        topOnEmptyHash: true, // Scroll to the top of the page for links with href="#"
+
+        // Speed & Duration
+        speed: 500, // Integer. Amount of time in milliseconds it should take to scroll 1000px
+        speedAsDuration: false, // If true, use speed as the total duration of the scroll animation
+        durationMax: null, // Integer. The maximum amount of time the scroll animation should take
+        durationMin: null, // Integer. The minimum amount of time the scroll animation should take
+        clip: true, // If true, adjust scroll distance to prevent abrupt stops near the bottom of the page
+        offset: 70
+
+
+        });
+    </script>
 </head>
 <body>
 @yield('content')
