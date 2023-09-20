@@ -199,3 +199,108 @@ textarea {
         }
     }
 }
+
+
+
+#contact {
+    background-color: #15212f22;
+    padding: 0;
+    .row {
+        .map {
+            padding-right: 0px;
+            padding-left: 0 !important;
+            iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .contacto {
+            padding: 0 25px;
+            .titulo {
+                padding-top: 50px !important;
+                h1 {
+                    font-size: 32px;
+                    font-family: $font1;
+                }
+                h2 {
+                    font-family: $font1;
+                    font-size: 18px;
+                }
+            }
+            .titulo {
+                padding: 15px;
+                justify-content: space-between;
+            }
+            input {
+                color: black;
+                border: 0;
+                border-bottom: 1.5px solid black;
+                height: 40px;
+                font-size: 14px;
+                padding: 12px 0 12px 8px;
+            }
+            .email {
+                input {
+                    width: 100%;
+                    font-family: $font1;
+                    font-size: 14px;
+                    padding: 12px 0 12px 8px;
+                }
+            }
+            .datos {
+                input {
+                    width: 48%;
+                    font-family: $font1;
+                    font-size: 14px;
+                    padding: 12px 0 12px 8px;
+                }
+                input:last-child {
+                    float: right;
+                }
+            }
+            textarea {
+                width: 100%;
+                height: 130px;
+                border: 0;
+                border-bottom: 1.5px solid black;
+            }
+            textarea::placeholder {
+                color: black;
+                font-family: $font1;
+                font-size: 14px;
+                padding: 12px 0 12px 8px;
+            }
+            .btn {
+                text-align: right;
+                margin-bottom: 30px;
+                cursor: auto;
+                a {
+                    background-color: #606060;
+                    padding: 8px 14px;
+                    font-family: $font1;
+                    font-size: 14px;
+                    color: #efefef;
+                    border: none;
+                }
+            }
+            .tu_consulta {
+                text-align: left;
+                img {
+                    width: 150px;
+                }
+                h3 {
+                    font-family: $font1;
+                    font-size: 16px;
+                }
+            }
+            input, textarea {
+                margin-bottom: 10px;
+                background-color: transparent;
+            }
+            input::placeholder {
+                color: black;
+            }
+        }
+    }
+}
+

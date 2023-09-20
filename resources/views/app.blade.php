@@ -51,6 +51,12 @@
 
         });
     </script>
+    
+    <!-- JS Iconos-->
+    <script
+      src="https://kit.fontawesome.com/7f7d55a2b3.js"
+      crossorigin="anonymous"
+    ></script>
 </head>
 <body>
 @yield('content')

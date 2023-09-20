@@ -179,3 +179,108 @@ textarea {
   font-size: 24px;
   line-height: 28px;
 }
+
+#contact {
+  background-color: rgba(21, 33, 47, 0.1333333333);
+  padding: 0;
+}
+#contact .row .map {
+  padding-right: 0px;
+  padding-left: 0 !important;
+}
+#contact .row .map iframe {
+  width: 100%;
+  height: 100%;
+}
+#contact .row .contacto {
+  padding: 0 25px;
+}
+#contact .row .contacto .titulo {
+  padding-top: 50px !important;
+}
+#contact .row .contacto .titulo h1 {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+}
+#contact .row .contacto .titulo h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+#contact .row .contacto .titulo {
+  padding: 15px;
+  justify-content: space-between;
+}
+#contact .row .contacto input {
+  color: black;
+  border: 0;
+  border-bottom: 1.5px solid black;
+  height: 40px;
+  font-size: 14px;
+  padding: 12px 0 12px 8px;
+}
+#contact .row .contacto .email input {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 12px 0 12px 8px;
+}
+#contact .row .contacto .datos input {
+  width: 48%;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 12px 0 12px 8px;
+}
+#contact .row .contacto .datos input:last-child {
+  float: right;
+}
+#contact .row .contacto textarea {
+  width: 100%;
+  height: 130px;
+  border: 0;
+  border-bottom: 1.5px solid black;
+}
+#contact .row .contacto textarea::-moz-placeholder {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 12px 0 12px 8px;
+}
+#contact .row .contacto textarea::placeholder {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 12px 0 12px 8px;
+}
+#contact .row .contacto .btn {
+  text-align: right;
+  margin-bottom: 30px;
+  cursor: auto;
+}
+#contact .row .contacto .btn a {
+  background-color: #606060;
+  padding: 8px 14px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #efefef;
+  border: none;
+}
+#contact .row .contacto .tu_consulta {
+  text-align: left;
+}
+#contact .row .contacto .tu_consulta img {
+  width: 150px;
+}
+#contact .row .contacto .tu_consulta h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+#contact .row .contacto input, #contact .row .contacto textarea {
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+#contact .row .contacto input::-moz-placeholder {
+  color: black;
+}
+#contact .row .contacto input::placeholder {
+  color: black;
+}
