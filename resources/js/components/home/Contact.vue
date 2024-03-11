@@ -10,16 +10,16 @@
             <h1>SOLICITÁ TU PRESUPUESTO</h1>
             <h2>FORMULARIO DE CONTACTO</h2>
           </div>
-          <form action="">
+          <form @submit.prevent="submitForm">
             <div class="col-12 datos">
-              <input type="text" required placeholder="Nombre completo">
-              <input type="text" required placeholder="Teléfono">
+              <input type="text" v-model="name" required placeholder="Nombre completo">
+              <input type="text" v-model="phone" required placeholder="Teléfono">
             </div>
             <div class="col-12 email">
-              <input type="text" required placeholder="Email">
+              <input type="text" v-model="email" required placeholder="Email">
             </div>
             <div class="col-12">
-              <textarea name="" id="" cols="30" rows="10" required placeholder="Consulta"></textarea>
+              <textarea name="" id="" v-model="comment" cols="30" rows="10" required placeholder="Consulta"></textarea>
             </div>
             <div class="row">
               <div class="col-md-9 tu_consulta">
@@ -35,7 +35,7 @@
                 </a></span>
               </div>
               <div class="col-md-3 btn">
-                <a href="">ENVIAR</a>
+                <a href="" @click.prevent="submitForm">ENVIAR</a>
               </div>
             </div>
           </form>
@@ -45,6 +45,35 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'; 
+
+const name = ref(''); 
+const phone = ref(''); 
+const email = ref(''); 
+const comment = ref(''); 
+ 
+ 
+function submitForm() { 
+  const formData = { 
+    name: name.value, 
+    phone: phone.value, 
+    email: email.value, 
+    comment: comment.value, 
+  }; 
+
+  axios.post('/enviar-email', formData)
+    .then(response => {
+      console.log(response.data);
+      // Clear the form fields
+      name.value = '';
+      phone.value = '';
+      email.value = '';
+      comment.value = '';
+    })
+    .catch(error => {
+      console.error(error);
+    });
+}
 
 </script>
 

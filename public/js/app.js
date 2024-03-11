@@ -20756,7 +20756,7 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "row"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "col-12"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", null, "¿Por qué elegirnos"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad distinctio voluptatem, harum enim accusamus odit quas assumenda explicabo cum, beatae alias eum tenetur libero asperiores atque debitis ratione dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit, facilis, aliquam illo nesciunt est aliquid dolorem veniam porro doloribus voluptatum minima numquam. Hic corporis nobis, impedit voluptas accusamus voluptatibus.")])], -1 /* HOISTED */);
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", null, "¿Por qué elegirnos?"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad distinctio voluptatem, harum enim accusamus odit quas assumenda explicabo cum, beatae alias eum tenetur libero asperiores atque debitis ratione dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit, facilis, aliquam illo nesciunt est aliquid dolorem veniam porro doloribus voluptatum minima numquam. Hic corporis nobis, impedit voluptas accusamus voluptatibus.")])], -1 /* HOISTED */);
 var _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3);
