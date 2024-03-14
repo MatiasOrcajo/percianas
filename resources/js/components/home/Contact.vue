@@ -23,7 +23,7 @@
             </div>
             <div class="row">
               <div class="col-md-9 tu_consulta">
-                <img src="../../img/logo-costado.png" alt="" class="img-fluid"> <br>
+                <img src="../../img/logo-costado.png" alt="" class="img-fluid"> <br> <br>
                 <span><a target="_blank" href="https://www.instagram.com/cortinasrollerfebo/">
                   <i class="fa-brands fa-instagram"></i>
                 </a></span>
@@ -52,7 +52,7 @@ const phone = ref('');
 const email = ref(''); 
 const comment = ref(''); 
  
- 
+
 function submitForm() { 
   const formData = { 
     name: name.value, 
@@ -78,5 +78,19 @@ function submitForm() {
 </script>
 
 <style lang="scss" scoped>
+.tu_consulta {
+  margin-bottom: 30px;
+  span {
+    margin: 5px 15px 5px 0;
+    padding: 7px 10px;
+    border-radius: 50px;
+    background-color: #000;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
 
 </style>
