@@ -249,7 +249,7 @@ textarea {
             }
             .datos {
                 input {
-                    width: 48%;
+                    width: 100%;
                     font-family: $font1;
                     font-size: 14px;
                     padding: 12px 0 12px 8px;
@@ -304,3 +304,218 @@ textarea {
     }
 }
 
+@media (max-width: 450px) {
+    
+    .navbar {
+        background-color: #fff;
+        .container {
+            .navbar-brand {
+                img {
+                    width: 128px;
+                }
+            }
+            .navbar-nav {
+                a:hover {
+                  opacity: 0.7 ;
+                }            
+                .nav-item {
+                    .nav-link {
+                        color: #15212f;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .navbar-toggler {
+                .navbar-toggler-icon {
+                    background-image: none;
+                    width: 35px;
+                    height: 35px;
+                    font-size: 35px;
+                    color: $azul;
+                }
+            }
+        }
+    }
+    
+    #banner {
+        height: 450px;
+        .col-12 {
+            top: 300px;
+            padding-right: 20px;
+            h1 {
+                font-size: 42px;
+                line-height: 46px;
+            }
+            h2 {
+                font-size: 30px;
+                line-height: 36px;
+            }
+        }
+    }
+    
+    #presentation {
+        padding: 60px 0;
+        .row {
+            .col-12 {
+                text-align: center;
+                margin-bottom: 50px;
+                h1 {
+                    font-size: 32px;
+                    line-height: 36px;
+                }
+            }
+            .col-md-4 {
+                padding: 0 40px;
+                margin: 20px 0;
+                .row {
+                    .col-9 {
+                        h3 {
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    #products {
+        padding: 0px 0;
+        background-image: url('../js/img/2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        .row {
+            padding: 100px 20px 70px 20px;
+            .col-md-4 {
+                padding: 30px 20px;
+                h2 {
+                    font-size: 28px;
+                    line-height: 32px;
+                }
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+    
+    #quote {
+        padding: 50px 0;
+        background-color: $azul;
+        .row {
+            .col-12 {
+                h1 {
+                    font-size: 42px;
+                    line-height: 44px;
+                }
+            }
+        }
+    }
+    
+    #about {
+        padding: 50px 0;
+        .row {
+            .col-12 {
+                h1 {
+                    font-size: 32px;
+                    line-height: 36px;
+                }
+                p {
+                    font-size: 20px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+    
+    
+    
+    #contact {
+        .row {
+            .map {
+                min-height: 350px;
+            }
+            .contacto {
+                padding: 0 20px;
+                .titulo {
+                    h1 {
+                        font-size: 26px;
+                    }
+                    h2 {
+                        font-family: $font1;
+                        font-size: 16px;
+                    }
+                }
+                input {
+                    color: black;
+                    border: 0;
+                    border-bottom: 1.5px solid black;
+                    height: 40px;
+                    font-size: 14px;
+                    padding: 12px 0 12px 8px;
+                }
+                .email {
+                    input {
+                        width: 100%;
+                        font-family: $font1;
+                        font-size: 14px;
+                        padding: 12px 0 12px 8px;
+                    }
+                }
+                .datos {
+                    input {
+                        font-family: $font1;
+                        font-size: 14px;
+                        padding: 12px 0 12px 8px;
+                    }
+                    input:last-child {
+                        float: right;
+                    }
+                }
+                textarea {
+                    width: 100%;
+                    height: 130px;
+                    border: 0;
+                    border-bottom: 1.5px solid black;
+                }
+                textarea::placeholder {
+                    color: black;
+                    font-family: $font1;
+                    font-size: 14px;
+                    padding: 12px 0 12px 8px;
+                }
+                .btn {
+                    text-align: right;
+                    margin-bottom: 30px;
+                    cursor: auto;
+                    a {
+                        background-color: #606060;
+                        padding: 8px 14px;
+                        font-family: $font1;
+                        font-size: 14px;
+                        color: #efefef;
+                        border: none;
+                    }
+                }
+                .tu_consulta {
+                    text-align: left;
+                    img {
+                        width: 150px;
+                    }
+                    h3 {
+                        font-family: $font1;
+                        font-size: 16px;
+                    }
+                }
+                input, textarea {
+                    margin-bottom: 10px;
+                    background-color: transparent;
+                }
+                input::placeholder {
+                    color: black;
+                }
+            }
+        }
+    }
+}

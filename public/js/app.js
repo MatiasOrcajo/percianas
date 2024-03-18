@@ -20778,7 +20778,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   src: _img_logo_costado_png__WEBPACK_IMPORTED_MODULE_1__["default"],
   alt: ""
 }, null, -1 /* HOISTED */);
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarsExample04\" aria-controls=\"navbarsExample04\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"><span class=\"navbar-toggler-icon\"></span></button><div class=\"collapse navbar-collapse\" id=\"navbarsExample04\"><ul class=\"navbar-nav ms-auto\"><li class=\"nav-item\"><a data-scroll class=\"nav-link\" href=\"#banner\">Inicio</a></li><li class=\"nav-item\"><a data-scroll class=\"nav-link\" href=\"#products\">Productos</a></li><li class=\"nav-item\"><a data-scroll class=\"nav-link\" href=\"#quote\">Calculadora</a></li><li class=\"nav-item\"><a data-scroll class=\"nav-link\" href=\"#about\">Nosotros</a></li><li class=\"nav-item\"><a data-scroll class=\"nav-link\" href=\"#contact\">Contacto</a></li></ul></div>", 2);
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarsExample04\" aria-controls=\"navbarsExample04\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"><i class=\"navbar-toggler-icon fas fa-bars\"></i></button><div class=\"collapse navbar-collapse\" id=\"navbarsExample04\"><ul class=\"navbar-nav ms-auto\"><li class=\"nav-item\"><a data-scroll class=\"nav-link\" href=\"#banner\">Inicio</a></li><li class=\"nav-item\"><a data-scroll class=\"nav-link\" href=\"#products\">Productos</a></li><li class=\"nav-item\"><a data-scroll class=\"nav-link\" href=\"#quote\">Calculadora</a></li><li class=\"nav-item\"><a data-scroll class=\"nav-link\" href=\"#about\">Nosotros</a></li><li class=\"nav-item\"><a data-scroll class=\"nav-link\" href=\"#contact\">Contacto</a></li></ul></div>", 2);
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["RouterLink"], {
     "class": "navbar-brand",
@@ -20814,7 +20814,15 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "row"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "col-12"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", null, "¿Por qué elegirnos?"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad distinctio voluptatem, harum enim accusamus odit quas assumenda explicabo cum, beatae alias eum tenetur libero asperiores atque debitis ratione dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit, facilis, aliquam illo nesciunt est aliquid dolorem veniam porro doloribus voluptatum minima numquam. Hic corporis nobis, impedit voluptas accusamus voluptatibus.")])], -1 /* HOISTED */);
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+  "data-aos": "fade-in",
+  "data-aos-delay": "100",
+  "data-aos-duration": "1500"
+}, "¿Por qué elegirnos?"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "data-aos": "fade-in",
+  "data-aos-delay": "500",
+  "data-aos-duration": "1500"
+}, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad distinctio voluptatem, harum enim accusamus odit quas assumenda explicabo cum, beatae alias eum tenetur libero asperiores atque debitis ratione dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit, facilis, aliquam illo nesciunt est aliquid dolorem veniam porro doloribus voluptatum minima numquam. Hic corporis nobis, impedit voluptas accusamus voluptatibus.")])], -1 /* HOISTED */);
 var _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3);
@@ -20871,22 +20879,25 @@ var _hoisted_5 = /*#__PURE__*/_withScopeId(function () {
 });
 var _hoisted_6 = ["onSubmit"];
 var _hoisted_7 = {
-  "class": "col-12 datos"
+  "class": "col-md-6 datos"
 };
 var _hoisted_8 = {
-  "class": "col-12 email"
+  "class": "col-md-6 datos"
 };
 var _hoisted_9 = {
-  "class": "col-12"
+  "class": "col-12 email"
 };
 var _hoisted_10 = {
+  "class": "col-12"
+};
+var _hoisted_11 = {
   "class": "row"
 };
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"col-md-9 tu_consulta\" data-v-4b03e69b><img src=\"" + _img_logo_costado_png__WEBPACK_IMPORTED_MODULE_1__["default"] + "\" alt=\"\" class=\"img-fluid\" data-v-4b03e69b> <br data-v-4b03e69b> <br data-v-4b03e69b><span data-v-4b03e69b><a target=\"_blank\" href=\"https://www.instagram.com/cortinasrollerfebo/\" data-v-4b03e69b><i class=\"fa-brands fa-instagram\" data-v-4b03e69b></i></a></span><span data-v-4b03e69b><a target=\"_blank\" href=\"https://www.facebook.com/Cortinas.Roller.Febo.Deco\" data-v-4b03e69b><i class=\"fa-brands fa-facebook\" data-v-4b03e69b></i></a></span><span class=\"whatsapp\" data-v-4b03e69b><a target=\"_blank\" href=\"https://wa.me/5491128765926\" data-v-4b03e69b><i class=\"fa-brands fa-whatsapp\" data-v-4b03e69b></i></a></span></div>", 1);
-var _hoisted_12 = {
-  "class": "col-md-3 btn"
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"col-9 tu_consulta\" data-v-4b03e69b><img src=\"" + _img_logo_costado_png__WEBPACK_IMPORTED_MODULE_1__["default"] + "\" alt=\"\" class=\"img-fluid\" data-v-4b03e69b> <br data-v-4b03e69b> <br data-v-4b03e69b><span data-v-4b03e69b><a target=\"_blank\" href=\"https://www.instagram.com/cortinasrollerfebo/\" data-v-4b03e69b><i class=\"fa-brands fa-instagram\" data-v-4b03e69b></i></a></span><span data-v-4b03e69b><a target=\"_blank\" href=\"https://www.facebook.com/Cortinas.Roller.Febo.Deco\" data-v-4b03e69b><i class=\"fa-brands fa-facebook\" data-v-4b03e69b></i></a></span><span class=\"whatsapp\" data-v-4b03e69b><a target=\"_blank\" href=\"https://wa.me/5491128765926\" data-v-4b03e69b><i class=\"fa-brands fa-whatsapp\" data-v-4b03e69b></i></a></span></div>", 1);
+var _hoisted_13 = {
+  "class": "col-3 btn"
 };
-var _hoisted_13 = ["onClick"];
+var _hoisted_14 = ["onClick"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
     onSubmit: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)($setup.submitForm, ["prevent"])
@@ -20897,21 +20908,21 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }),
     required: "",
     placeholder: "Nombre completo"
-  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.name]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.name]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     type: "text",
     "onUpdate:modelValue": _cache[1] || (_cache[1] = function ($event) {
       return $setup.phone = $event;
     }),
     required: "",
     placeholder: "Teléfono"
-  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.phone]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.phone]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     type: "text",
     "onUpdate:modelValue": _cache[2] || (_cache[2] = function ($event) {
       return $setup.email = $event;
     }),
     required: "",
     placeholder: "Email"
-  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.email]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("textarea", {
+  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.email]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("textarea", {
     name: "",
     id: "",
     "onUpdate:modelValue": _cache[3] || (_cache[3] = function ($event) {
@@ -20921,10 +20932,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     rows: "10",
     required: "",
     placeholder: "Consulta"
-  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.comment]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [_hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.comment]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [_hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
     href: "",
     onClick: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)($setup.submitForm, ["prevent"])
-  }, "ENVIAR", 8 /* PROPS */, _hoisted_13)])])], 40 /* PROPS, HYDRATE_EVENTS */, _hoisted_6)])])]);
+  }, "ENVIAR", 8 /* PROPS */, _hoisted_14)])])], 40 /* PROPS, HYDRATE_EVENTS */, _hoisted_6)])])]);
 }
 
 /***/ }),
@@ -20952,7 +20963,7 @@ var _hoisted_1 = {
   id: "presentation",
   "class": "container"
 };
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"row\"><div class=\"col-12\"><h1>Cortinas roller a medida</h1></div></div><div class=\"row\"><div class=\"col-md-4 col-sm-6\"><div class=\"row\"><div class=\"col-3\"><img class=\"img-fluid\" src=\"" + _img_envios_png__WEBPACK_IMPORTED_MODULE_1__["default"] + "\" alt=\"\"></div><div class=\"col-9\"><h3>Envios a <br> todo el país</h3></div></div></div><div class=\"col-md-4 col-sm-6\"><div class=\"row\"><div class=\"col-3\"><img class=\"img-fluid\" src=\"" + _img_pagos_png__WEBPACK_IMPORTED_MODULE_2__["default"] + "\" alt=\"\"></div><div class=\"col-9\"><h3>Todos los <br> medios de pago</h3></div></div></div><div class=\"col-md-4 col-sm-6\"><div class=\"row\"><div class=\"col-3\"><img class=\"img-fluid\" src=\"" + _img_factura_png__WEBPACK_IMPORTED_MODULE_3__["default"] + "\" alt=\"\"></div><div class=\"col-9\"><h3>Factura A <br> para empresas</h3></div></div></div></div>", 2);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"row\"><div class=\"col-12\"><h1>Cortinas roller a medida</h1></div></div><div class=\"row\"><div class=\"col-md-4 col-sm-6\" data-aos=\"fade-left\" data-aos-delay=\"100\" data-aos-duration=\"1500\"><div class=\"row\"><div class=\"col-3\"><img class=\"img-fluid\" src=\"" + _img_envios_png__WEBPACK_IMPORTED_MODULE_1__["default"] + "\" alt=\"\"></div><div class=\"col-9\"><h3>Envios a <br> todo el país</h3></div></div></div><div class=\"col-md-4 col-sm-6\" data-aos=\"fade-left\" data-aos-delay=\"450\" data-aos-duration=\"1500\"><div class=\"row\"><div class=\"col-3\"><img class=\"img-fluid\" src=\"" + _img_pagos_png__WEBPACK_IMPORTED_MODULE_2__["default"] + "\" alt=\"\"></div><div class=\"col-9\"><h3>Todos los <br> medios de pago</h3></div></div></div><div class=\"col-md-4 col-sm-6\" data-aos=\"fade-left\" data-aos-delay=\"900\" data-aos-duration=\"1500\"><div class=\"row\"><div class=\"col-3\"><img class=\"img-fluid\" src=\"" + _img_factura_png__WEBPACK_IMPORTED_MODULE_3__["default"] + "\" alt=\"\"></div><div class=\"col-9\"><h3>Factura A <br> para empresas</h3></div></div></div></div>", 2);
 var _hoisted_4 = [_hoisted_2];
 function render(_ctx, _cache) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_4);
@@ -20990,7 +21001,10 @@ var _hoisted_3 = {
   "class": "row"
 };
 var _hoisted_4 = {
-  "class": "col-md-4 col-sm-6"
+  "class": "col-md-4 col-sm-6",
+  "data-aos": "fade-in",
+  "data-aos-delay": "100",
+  "data-aos-duration": "1500"
 };
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: _img_blackout_png__WEBPACK_IMPORTED_MODULE_1__["default"],
@@ -20998,9 +21012,12 @@ var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "img-fluid"
 }, null, -1 /* HOISTED */);
 var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, "Black out", -1 /* HOISTED */);
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, voluptatum vel, velit deserunt accusantium non repellat ipsa quisquam corrupti unde quos placeat in sint tenetur soluta harum quasi laboriosam sit?", -1 /* HOISTED */);
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Estas cortinas están diseñadas específicamente para bloquear completamente la luz exterior. Están fabricadas con materiales opacos que impiden que la luz pase a través de ellas, ofreciendo una oscuridad casi total en la habitación cuando están completamente cerradas.", -1 /* HOISTED */);
 var _hoisted_8 = {
-  "class": "col-md-4 col-sm-6"
+  "class": "col-md-4 col-sm-6",
+  "data-aos": "fade-in",
+  "data-aos-delay": "300",
+  "data-aos-duration": "1500"
 };
 var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: _img_sunscreen_png__WEBPACK_IMPORTED_MODULE_2__["default"],
@@ -21008,9 +21025,12 @@ var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "img-fluid"
 }, null, -1 /* HOISTED */);
 var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, "Sunscreen", -1 /* HOISTED */);
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, voluptatum vel, velit deserunt accusantium non repellat ipsa quisquam corrupti unde quos placeat in sint tenetur soluta harum quasi laboriosam sit?", -1 /* HOISTED */);
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Estas cortinas están diseñadas para filtrar la luz en lugar de bloquearla por completo. Están hechas de dos capas de tela, una opaca y otra transparente (generalmente de malla). Permiten que entre cierta cantidad de luz natural en la habitación mientras protegen de la radiación solar y brindan cierto nivel de privacidad.", -1 /* HOISTED */);
 var _hoisted_12 = {
-  "class": "col-md-4 col-sm-6"
+  "class": "col-md-4 col-sm-6",
+  "data-aos": "fade-in",
+  "data-aos-delay": "500",
+  "data-aos-duration": "1500"
 };
 var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: _img_dual_png__WEBPACK_IMPORTED_MODULE_3__["default"],
@@ -21069,7 +21089,11 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "row"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "col-12"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", null, "Cotizá tu cortina")])], -1 /* HOISTED */);
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+  style: {
+    "opacity": "0"
+  }
+}, "Cotizá tu cortina")])], -1 /* HOISTED */);
 
 function render(_ctx, _cache) {
   var _component_router_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-link");
@@ -21104,7 +21128,10 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "row"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "col-12"
+  "class": "col-12",
+  "data-aos": "fade-in",
+  "data-aos-delay": "100",
+  "data-aos-duration": "1500"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, "BIENVENIDOS A"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", null, "FEBO DECO")])])])], -1 /* HOISTED */);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {

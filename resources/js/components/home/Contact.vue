@@ -11,8 +11,10 @@
             <h2>FORMULARIO DE CONTACTO</h2>
           </div>
           <form @submit.prevent="submitForm">
-            <div class="col-12 datos">
+            <div class="col-md-6 datos">
               <input type="text" v-model="name" required placeholder="Nombre completo">
+            </div>
+            <div class="col-md-6 datos">
               <input type="text" v-model="phone" required placeholder="Teléfono">
             </div>
             <div class="col-12 email">
@@ -22,7 +24,7 @@
               <textarea name="" id="" v-model="comment" cols="30" rows="10" required placeholder="Consulta"></textarea>
             </div>
             <div class="row">
-              <div class="col-md-9 tu_consulta">
+              <div class="col-9 tu_consulta">
                 <img src="../../img/logo-costado.png" alt="" class="img-fluid"> <br> <br>
                 <span><a target="_blank" href="https://www.instagram.com/cortinasrollerfebo/">
                   <i class="fa-brands fa-instagram"></i>
@@ -34,7 +36,7 @@
                   <i class="fa-brands fa-whatsapp"></i>
                 </a></span>
               </div>
-              <div class="col-md-3 btn">
+              <div class="col-3 btn">
                 <a href="" @click.prevent="submitForm">ENVIAR</a>
               </div>
             </div>

@@ -6,7 +6,12 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-6">
+            <div 
+            class="col-md-4 col-sm-6"
+            data-aos="fade-left"
+            data-aos-delay="100"
+            data-aos-duration="1500"
+            >
                 <div class="row">
                     <div class="col-3">
                         <img class="img-fluid" src="../../img/envios.png" alt="">
@@ -16,7 +21,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div 
+            class="col-md-4 col-sm-6"
+            data-aos="fade-left"
+            data-aos-delay="450"
+            data-aos-duration="1500"
+            >
                 <div class="row">
                     <div class="col-3">
                         <img class="img-fluid" src="../../img/pagos.png" alt="">
@@ -26,7 +36,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div 
+            class="col-md-4 col-sm-6"
+            data-aos="fade-left"
+            data-aos-delay="900"
+            data-aos-duration="1500"
+            >
                 <div class="row">
                     <div class="col-3">
                         <img class="img-fluid" src="../../img/factura.png" alt="">

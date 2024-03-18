@@ -3,7 +3,7 @@
         <router-link to="">
             <div class="row">
                 <div class="col-12">
-                    <h1>Cotizá tu cortina</h1>
+                    <h1 style="opacity: 0;">Cotizá tu cortina</h1>
                 </div>
             </div>
         </router-link>

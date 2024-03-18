@@ -6,7 +6,7 @@
                 <img class="img-fluid" src="../img/logo-costado.png" alt="">
               </router-link>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="navbar-toggler-icon fas fa-bars"></i>
               </button>
         
               <div class="collapse navbar-collapse" id="navbarsExample04">

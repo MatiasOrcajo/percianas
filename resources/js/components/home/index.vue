@@ -2,7 +2,12 @@
     <div>   
         <div id="banner" class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div 
+                class="col-12"
+                data-aos="fade-in"
+                data-aos-delay="100"
+                data-aos-duration="1500"
+                >
                     <h2>BIENVENIDOS A</h2>
                     <h1>FEBO DECO</h1>
                 </div>

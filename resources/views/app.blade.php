@@ -30,6 +30,9 @@
     <!-- datatables -->
     <link href="{{asset('/css/datatables.css')}}" type="text/css" rel="stylesheet">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <!-- Scroll secciones -->
     <script src="{{asset('js/smooth-scroll.min.js')}}"></script>
     <script>
@@ -57,6 +60,10 @@
       src="https://kit.fontawesome.com/7f7d55a2b3.js"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+
 </head>
 <body>
 @yield('content')
@@ -70,4 +77,7 @@
 <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 <script src="{{asset('/js/datatables.js')}}"></script>
 </body>
+<script>
+    AOS.init();
+</script>
 </html>
